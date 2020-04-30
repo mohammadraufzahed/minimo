@@ -1,0 +1,32 @@
+@font-face{
+    font-family: 'Playfair Regular';
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+body{
+    background-color: #ffffff;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+    font-family: 'Playfair Regular';
+    overflow: hidden;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.menu h1, a{
+    display: inline;
+}
+.menu h1{
+    float: left;
+}
+.menu a{
+    text-decoration: none;
+    float: right;
+    margin-right: 70px;
+    margin-top: 11px;
+    color: #6c6c6c;
+}
