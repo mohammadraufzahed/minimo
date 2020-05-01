@@ -5,6 +5,9 @@
 body{
     background-color: #ffffff;
 }
+small{
+    color: #d1cbc2;
+}
 *{
     margin: 0;
     box-sizing: border-box;
@@ -29,4 +32,37 @@ body{
     margin-right: 70px;
     margin-top: 11px;
     color: #6c6c6c;
+}
+.last-post{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.last-post img{
+    display: block;
+    margin:0 auto;
+    clear: both;
+}
+.last-post small, h1, p{
+    margin-left: 200px;
+}
+.cat{
+    margin-top: 20px;
+    top: 200px;
+}
+.content h1, p{
+    margin-top: 20px;
+}
+.last-post h1{
+    color: #626262;
+}
+.last-post p{
+    color: #a1a1a1;
+}
+.content{
+    margin-top: 30px;
+}
+.cm{
+    display: block;
+    margin-top: 20px;
 }
